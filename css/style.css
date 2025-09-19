@@ -214,3 +214,10 @@ nav ul {
   font-size: 1.1em;
   color: #333;
 }
+
+/*--- Security note ---*/
+.security-note {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 10px;
+}
