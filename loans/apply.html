@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apply for a Loan | GlobalstoxFX</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">GlobalstoxFX</div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../plans/investment.html">Plans</a></li>
+        <li><a href="../loans/loan-services.html">Loans</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Loan Application Form</h2>
+    <form id="loan-form">
+      <input type="text" id="full-name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+      <input type="number" id="amount" placeholder="Loan Amount (USD)" required />
+      <select id="loan-type" required>
+        <option value="">Select Loan Type</option>
+        <option value="crypto-backed">Crypto-Backed Loan</option>
+        <option value="forex-margin">Forex Margin Expansion</option>
+        <option value="business-growth">Business Growth Loan</option>
+        <option value="asset-leveraged">Asset-Leveraged Investment</option>
+      </select>
+      <textarea id="purpose" placeholder="Purpose of Loan" required></textarea>
+      <button type="submit">Submit Application</button>
+      <p id="loan-response" style="margin-top:10px;"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GlobalstoxFX. All rights reserved.</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
