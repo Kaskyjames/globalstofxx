@@ -205,3 +205,12 @@ nav ul {
   border-radius: 20px;
   margin-top: 10px;
   }
+
+/* --- Count Banner ---*/
+.trust-banner {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1em;
+  color: #333;
+}
