@@ -44,3 +44,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+
+/*--- Login ---*/
+document.addEventListener("DOMContentLoaded", function () {
+  const loginForm = document.getElementById("login-form");
+  const loginResponse = document.getElementById("login-response");
+
+  if (loginForm) {
+    loginForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const email = document.getElementById("login-email").value.trim();
+      const password = document.getElementById("login-password").value.trim();
+
+      if (email && password) {
+        loginResponse.textContent = "✅ Login successful. Redirecting to dashboard...";
+        setTimeout(() => {
+          window.location.href = "dashboard.html";
+        }, 1500);
+      } else {
+        loginResponse.textContent = "⚠️ Please enter both email and password.";
+      }
+    });
+  }
+});
